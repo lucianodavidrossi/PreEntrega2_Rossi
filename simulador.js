@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
   
-      // Guardar datos del usuario en localStorage
+      
       localStorage.setItem('usuario', JSON.stringify(usuario));
   
-      // Imprimir datos del usuario en la consola del navegador
+      
       console.log('Datos del usuario:', usuario);
     }
   
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
   
-      // Actualizar datos del usuario en localStorage
+      
       localStorage.setItem('usuario', JSON.stringify(usuario));
     }
   
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
   
-      // Actualizar datos del usuario en localStorage
+      
       localStorage.setItem('usuario', JSON.stringify(usuario));
     }
   
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
       usuario = JSON.parse(localStorage.getItem('usuario'));
       usuario.cantidad_cuotas = Number(prompt("Ingrese cantidad de cuotas a abonar"));
   
-      // Actualizar datos del usuario en localStorage
+      
       localStorage.setItem('usuario', JSON.stringify(usuario));
     }
   
